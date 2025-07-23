@@ -41,7 +41,8 @@ export default function PrivateEncryptSimulator() {
     setReceiverPubKey('');
   };
   console.log('gourav saini')
-
+  console.log('rahul')
+  console.log('arpit')
   const handleEncrypt = async () => {
     if (!senderKeys || amount <= 0) return;
 

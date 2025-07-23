@@ -9,7 +9,7 @@ import Seed from "@/component/Seed.tsx/page";
 import { useRouter } from "next/navigation";
 // Initialize BIP32 with ECC
 const bip32 = BIP32Factory(ecc);
-
+console.log('rahul')
 export default function Home() {
   const [showSecret, setShowSecret] = useState(false);
   const [showVault, setShowVault] = useState(false);
